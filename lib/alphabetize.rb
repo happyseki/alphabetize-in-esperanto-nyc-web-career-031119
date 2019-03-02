@@ -1,8 +1,8 @@
 def alphabetize(arr)
-  ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do|word|
    word.split("").collect do|letter|
-    ALPHABET.index(letter)
+    alphabet.index(letter)
    end
   end
   # code here
